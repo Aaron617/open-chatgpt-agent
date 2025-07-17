@@ -228,50 +228,6 @@ await browser_tool.navigate("https://example.com")
 await browser_tool.screenshot()
 ```
 
-## 🧪 Development
-
-### Running Tests
-
-```bash
-# Run all tests
-pytest
-
-# Run with coverage
-pytest --cov=src --cov-report=html
-
-# Run specific test category
-pytest tests/test_models.py
-pytest tests/test_tools.py -v
-```
-
-### Development Setup
-
-```bash
-# Install development dependencies
-pip install -e .
-
-# Code formatting
-black src/ tests/
-isort src/ tests/
-
-# Type checking
-mypy src/
-
-# Linting
-flake8 src/
-```
-
-### Configuration Check
-
-```bash
-# Check configuration status
-python -c "from src.utils.config import config; config.print_config_status()"
-
-# Test MCP browser setup
-python examples/browser_mcp_example.py
-```
-
-
 ## 🛠️ Available Tools
 
 | Tool | Description | Type | Requirements |
