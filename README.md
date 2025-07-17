@@ -2,6 +2,8 @@
 
 A comprehensive replication of the OpenAI ChatGPT agent featuring standardized AI model interfaces, browser automation via MCP (Model Context Protocol), terminal toolkit, and web search capabilities.
 
+![Agent Interaction Flow](assets/arch.jpg)
+
 ## 🚀 Features
 
 ### 🧠 Multi-Model AI Support
@@ -299,9 +301,6 @@ python -c "from src.utils.config import config; config.print_config_status()"
 python examples/browser_mcp_example.py
 ```
 
-## 🧩 Agent Interaction Flow
-
-![Agent Interaction Flow](assets/arch.jpg)
 
 ## 🛠️ Available Tools
 
