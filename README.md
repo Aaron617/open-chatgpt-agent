@@ -42,36 +42,6 @@ A comprehensive replication of the OpenAI ChatGPT agent featuring standardized A
 - Output capture and error handling
 - Matplotlib figure support
 
-## 🏗️ Architecture
-
-```
-open-chatgpt-agent/
-├── src/
-│   ├── models/              # AI model providers
-│   │   ├── base_model.py    # Abstract base class
-│   │   ├── anthropic_model.py
-│   │   ├── openai_model.py
-│   │   └── gemini_model.py
-│   ├── tools/               # Agent tools
-│   │   ├── base_tool.py     # Tool interface
-│   │   ├── code_execution_tool.py
-│   │   ├── web_search_tool.py
-│   │   ├── web_content_tool.py
-│   │   ├── terminal_tool.py
-│   │   └── mcp/             # MCP tools
-│   │       ├── mcp_client.py
-│   │       └── browser_mcp_tool.py
-│   ├── utils/               # Configuration and utilities
-│   │   ├── config.py
-│   │   └── config_models.py
-│   └── agent.py             # Main agent class
-├── examples/                # Usage examples
-├── tests/                   # Test suites
-├── .env.example             # Environment template
-├── requirements.txt         # Dependencies
-└── setup_mcp_browser.sh     # MCP browser setup
-```
-
 ## 🔧 Prerequisites
 
 - **Python 3.8+**
