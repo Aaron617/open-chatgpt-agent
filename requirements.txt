@@ -1,0 +1,39 @@
+# Core AI model providers
+anthropic>=0.40.0
+openai>=1.54.0
+google-generativeai>=0.8.0
+
+# Web scraping and HTTP requests
+aiohttp>=3.10.0
+requests>=2.32.0
+
+# Environment and configuration
+python-dotenv>=1.0.0
+PyYAML>=6.0.0
+
+# MCP (Model Context Protocol) support
+mcp>=1.0.0
+
+# CAMEL AI toolkit (for terminal operations)
+camel-ai>=0.2.0
+
+# Async support
+asyncio-mqtt>=0.16.0
+
+# Logging and utilities
+colorama>=0.4.6
+pydantic>=2.0.0
+
+# Development and testing
+pytest>=8.0.0
+pytest-asyncio>=0.24.0
+black>=24.0.0
+isort>=5.13.0
+
+# Optional dependencies for code execution
+ipython>=8.0.0
+jupyter>=1.0.0
+
+# Optional dependencies for web automation (if using MCP browser tools)
+# playwright>=1.40.0
+# puppeteer>=2.0.0
